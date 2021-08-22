@@ -1,13 +1,17 @@
 html, body{
     font-family: "Open Sans", sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     text-align: center;
+    width: 100%;
+    max-width: 1280px;
+    background-color: #E5E5E5;
 }
 .wrapper{
     max-width: 1400px;
     margin: 0 auto;
     text-align: left;
+    background-color: #FFFFFF;
 }
 header{
     -webkit-box-shadow: 0px 5px 20px 5px rgba(122,122,122,0.4); 
@@ -21,6 +25,7 @@ header nav{
     font-size: 24px;
     font-weight: 600;
     line-height: 120px;
+    margin-right: 30px;
 }
 header nav a{
     color: #777777;
@@ -54,4 +59,122 @@ content .frase.icon2{
 }
 content .frase.icon3{
     background-image: url("images/icon3.png");
+}
+
+content .destaque{
+    padding: 60px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+content .img-menorCentro{
+    padding: 60px;  
+}
+
+.vitrine{
+    padding: 30px 0;
+    background-color: #C2185B;
+}
+
+.vitrine h2{
+    color: #ffffff;
+    text-align: center;
+}
+
+.vitrine .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card a{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.card p{
+    padding: 10px;
+    color: #000000;
+    font-weight: bold;
+    margin: 0;
+    width: 100%;
+    max-width: 250px;
+    background-color: #ffffff;
+}
+
+.card .preco{
+    font-weight: 200;
+}
+
+.produto_destaque{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: baseline;
+}
+.link_produto{
+    position: absolute;
+    width: 35%;
+    height: 144px;
+    /* left: 127px; */
+    /* top: 2379px; */
+    font-family: Open Sans;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 54px;
+    color: #000000;    
+}
+
+.link_produto a{
+    padding: 15px;
+    background-color: #C2185B;
+    color:#FFFFFF;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+footer .wrapper{
+    background-color:#C2185B;
+    display: flex;
+    padding: 60px;
+    color: #ffffff
+}
+
+footer .footer_links{
+    display: flex;
+}
+
+.footer_links h3{
+    margin-bottom: 0px;
+}
+
+.footer_links nav{
+    display: flex;
+    flex-direction: column;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .logo{
+    width: 100%;
+    max-width: 400px;
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.coluna{
+    margin-right: 66%;
 }
